@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Roboflow cache/downloads (optional)
+roboflow/
+
+# YOLOv8 runs folder (optional, contains detection output videos/images)
+runs/
+
+# Model weights
+*.pt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Colab auth/cache
+.drivefs/
+.gdrive/
+
+# VSCode and JetBrains IDE settings
+.vscode/
+.idea/
+
+# System logs or crash files
+*.log
+
+# Zip or export artifacts
+*.zip
+*.tar
+*.tar.gz
